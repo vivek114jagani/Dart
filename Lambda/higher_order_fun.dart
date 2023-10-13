@@ -15,7 +15,7 @@ Function other2() {
 void main() {
   // EX :- 1;
   Function add = (a, b) => print(a + b);
-  other("vivek", add);      //hear add == number function, so you have goto othe function.
+  other("vivek", add);      //hear add == number function, so you have goto other function.
 
   // EX :- 2;
   var fun = other2();
