@@ -15,10 +15,10 @@ void main() {
 }
 
 void getData() async {
-  String data = await midal();
+  String data = await medal();
   print(data);
 }
 
-Future<String> midal() {
+Future<String> medal() {
   return Future.delayed(Duration(seconds: 5), () => "hii");
 }

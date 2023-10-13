@@ -7,7 +7,7 @@ class laptop
 
   turnoff() 
   {
-    print("laptp is off");
+    print("laptop is off");
   }
 }
 
